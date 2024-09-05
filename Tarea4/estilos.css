@@ -1,0 +1,32 @@
+/* Estilo general para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Fusiona bordes */
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+/* Estilo para las celdas de la tabla */
+.clases{
+    background-color: #8bd8a8;
+    text-align: left; /* Alineación del texto */
+}
+.claseslib{
+    background-color: rgb(224, 146, 146);
+    text-align: center;
+}
+
+/* Estilo para los encabezados de tabla */
+.encabezados{
+    background-color: #d9e99e; /* Color de fondo para encabezados */
+    font-weight: bold; /* Negrita para texto en encabezados */
+}
+
+/* Estilo para filas alternas en el cuerpo de la tabla */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo para filas pares */
+}
+
+/* Estilo para la fila seleccionada */
+tbody tr:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el ratón */
+}
